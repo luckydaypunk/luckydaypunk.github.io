@@ -1,0 +1,12 @@
+.projectIcons>div>a{
+    font-size: 5em;
+}
+.projectIcons>div{
+    display: inline-block;
+    margin: 40px;
+}
+.weatherBox{
+    float:left;
+    font-size: 0.5em;
+    margin: 15px;
+}
