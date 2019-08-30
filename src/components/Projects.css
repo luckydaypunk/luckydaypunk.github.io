@@ -6,7 +6,25 @@
     margin: 40px;
 }
 .weatherBox{
-    float:left;
+    float:center;
     font-size: 0.5em;
     margin: 15px;
+}
+table, th, td {
+	margin-left: 25%;
+	margin-right: 25%;
+  	border: 1px solid black;
+}
+button {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+table {
+	width: 50%;
+}
+#tableContainer {
+    padding-bottom: 5%;
+}
+.PerformanceSpan{
+    font-size: 1em;
 }

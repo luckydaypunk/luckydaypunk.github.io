@@ -8,11 +8,6 @@
     zoom: 0.6;
     float: left;
 }
-/* .myPhoto:active{
-    transition-duration: 0.5s;
-    box-shadow: 0 0 50px 25px rgba(243, 219, 4, 0.767);
-    border: 1px solid #ddd;
-} */
 .myPhoto:hover{
     transition-duration: 2.5s;
     box-shadow: 0 0 50px 25px rgba(243, 219, 4, 0.767);
@@ -33,4 +28,5 @@ text{
     color: #007bff;
     font-size: 0.7em;
     display: inline-block;
+    cursor: pointer;
 }

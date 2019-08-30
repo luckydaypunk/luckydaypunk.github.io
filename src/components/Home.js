@@ -1,12 +1,11 @@
 import React from 'react'
 import Intro from './Intro'
-import SNS from './SNS'
+import Photos from './Photos'
 
 const Home = () => (
     <div>
         <Intro />
-        <br />
-        <SNS />
+        <Photos />
     </div>
 )
 export default Home

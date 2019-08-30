@@ -1,0 +1,18 @@
+.userPanel>img {
+	border-radius: 50%;
+	height: 72px;
+	margin-top: 5px;
+	width: 72px;
+}
+
+.userPanel {
+	background-color: #343a4046;
+	max-width: 50%;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 2vw;
+}
+
+.usertag {
+	font-size: 3vw;
+}

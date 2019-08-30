@@ -2,7 +2,7 @@ import React from 'react'
 import Loading from './Loading.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons'
-import { faSun, faMoon, faUmbrella, faCloud, faMeteor } from '@fortawesome/free-solid-svg-icons'
+import { faSun, faMoon, faCloud, faMeteor } from '@fortawesome/free-solid-svg-icons'
 
 export default class Weather extends React.Component {
     constructor(props) {
@@ -46,13 +46,14 @@ export default class Weather extends React.Component {
         return (
             <div>
                 <div>
+                    <p>Example of recent project to learn Heroku:</p>
                     {this.state.loading === true
                         ? <Loading />
                         : <div>
                             <p>The local temperature in {this.state.loc} is {this.state.temp}&#8451;</p>
                             <div><FontAwesomeIcon icon={this.getIcon(this.state.icon)} /></div>
                             <p>{this.state.summary}</p>
-                            <p>Powered by <FontAwesomeIcon icon={faNodeJs} /> on Heroku!</p>
+                            <p>Built in <FontAwesomeIcon icon={faNodeJs} /> on Heroku!</p>
                             <br />
                         </div>}
                 </div>

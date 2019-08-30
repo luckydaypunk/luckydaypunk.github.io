@@ -13,7 +13,7 @@ import Articles from './components/Articles'
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Navbar1 />
           <br />
