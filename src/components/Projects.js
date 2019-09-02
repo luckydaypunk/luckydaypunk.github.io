@@ -16,7 +16,7 @@ export default class Projects extends React.Component {
         return (
             <div>
                 <Container>
-                    <span>Feel free to check out my Github repos, works on Glitch and Codepen profile below!</span>
+                    <span>Check out my profiles below, or jump right into my fully serverless, graphQL and React <a href="https://duirhq879qz5z.cloudfront.net/">marketplace app!</a></span>
                     <SNS />
                 </Container>
                 <div className='weatherBox'>
